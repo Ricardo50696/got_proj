@@ -1,0 +1,813 @@
+[
+{
+  "model": "series.series",
+  "pk": 1,
+  "fields": {
+    "title": "Game of Thrones"
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 1,
+  "fields": {
+    "title": "Winter Is Coming",
+    "season": "1",
+    "episode_number": 1,
+    "released": "2011-04-17",
+    "imdbRating": "9.1",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 2,
+  "fields": {
+    "title": "The Kingsroad",
+    "season": "1",
+    "episode_number": 2,
+    "released": "2011-04-24",
+    "imdbRating": null,
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 3,
+  "fields": {
+    "title": "Lord Snow",
+    "season": "1",
+    "episode_number": 3,
+    "released": "2011-05-01",
+    "imdbRating": "8.7",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 4,
+  "fields": {
+    "title": "Cripples, Bastards, and Broken Things",
+    "season": "1",
+    "episode_number": 4,
+    "released": "2011-05-08",
+    "imdbRating": "8.8",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 5,
+  "fields": {
+    "title": "The Wolf and the Lion",
+    "season": "1",
+    "episode_number": 5,
+    "released": "2011-05-15",
+    "imdbRating": "9.1",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 6,
+  "fields": {
+    "title": "A Golden Crown",
+    "season": "1",
+    "episode_number": 6,
+    "released": "2011-05-22",
+    "imdbRating": "9.2",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 7,
+  "fields": {
+    "title": "You Win or You Die",
+    "season": "1",
+    "episode_number": 7,
+    "released": "2011-05-29",
+    "imdbRating": "9.2",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 8,
+  "fields": {
+    "title": "The Pointy End",
+    "season": "1",
+    "episode_number": 8,
+    "released": "2011-06-05",
+    "imdbRating": "9.0",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 9,
+  "fields": {
+    "title": "Baelor",
+    "season": "1",
+    "episode_number": 9,
+    "released": "2011-06-12",
+    "imdbRating": "9.6",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 10,
+  "fields": {
+    "title": "Fire and Blood",
+    "season": "1",
+    "episode_number": 10,
+    "released": "2011-06-19",
+    "imdbRating": "9.5",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 11,
+  "fields": {
+    "title": "The North Remembers",
+    "season": "2",
+    "episode_number": 1,
+    "released": "2012-04-01",
+    "imdbRating": null,
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 12,
+  "fields": {
+    "title": "The Night Lands",
+    "season": "2",
+    "episode_number": 2,
+    "released": "2012-04-08",
+    "imdbRating": "8.5",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 13,
+  "fields": {
+    "title": "What Is Dead May Never Die",
+    "season": "2",
+    "episode_number": 3,
+    "released": "2012-04-15",
+    "imdbRating": "8.8",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 14,
+  "fields": {
+    "title": "Garden of Bones",
+    "season": "2",
+    "episode_number": 4,
+    "released": "2012-04-22",
+    "imdbRating": "8.8",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 15,
+  "fields": {
+    "title": "The Ghost of Harrenhal",
+    "season": "2",
+    "episode_number": 5,
+    "released": "2012-04-29",
+    "imdbRating": "8.8",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 16,
+  "fields": {
+    "title": "The Old Gods and the New",
+    "season": "2",
+    "episode_number": 6,
+    "released": "2012-05-06",
+    "imdbRating": "9.1",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 17,
+  "fields": {
+    "title": "A Man Without Honor",
+    "season": "2",
+    "episode_number": 7,
+    "released": "2012-05-13",
+    "imdbRating": "8.9",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 18,
+  "fields": {
+    "title": "The Prince of Winterfell",
+    "season": "2",
+    "episode_number": 8,
+    "released": "2012-05-20",
+    "imdbRating": "8.8",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 19,
+  "fields": {
+    "title": "Blackwater",
+    "season": "2",
+    "episode_number": 9,
+    "released": "2012-05-27",
+    "imdbRating": "9.7",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 20,
+  "fields": {
+    "title": "Valar Morghulis",
+    "season": "2",
+    "episode_number": 10,
+    "released": "2012-06-03",
+    "imdbRating": null,
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 21,
+  "fields": {
+    "title": "Valar Dohaeris",
+    "season": "3",
+    "episode_number": 1,
+    "released": "2013-03-31",
+    "imdbRating": "8.8",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 22,
+  "fields": {
+    "title": "Dark Wings, Dark Words",
+    "season": "3",
+    "episode_number": 2,
+    "released": "2013-04-07",
+    "imdbRating": "8.6",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 23,
+  "fields": {
+    "title": "Walk of Punishment",
+    "season": "3",
+    "episode_number": 3,
+    "released": "2013-04-14",
+    "imdbRating": "8.9",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 24,
+  "fields": {
+    "title": "And Now His Watch Is Ended",
+    "season": "3",
+    "episode_number": 4,
+    "released": "2013-04-21",
+    "imdbRating": "9.6",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 25,
+  "fields": {
+    "title": "Kissed by Fire",
+    "season": "3",
+    "episode_number": 5,
+    "released": "2013-04-28",
+    "imdbRating": "9.0",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 26,
+  "fields": {
+    "title": "The Climb",
+    "season": "3",
+    "episode_number": 6,
+    "released": "2013-05-05",
+    "imdbRating": "8.8",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 27,
+  "fields": {
+    "title": "The Bear and the Maiden Fair",
+    "season": "3",
+    "episode_number": 7,
+    "released": "2013-05-12",
+    "imdbRating": null,
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 28,
+  "fields": {
+    "title": "Second Sons",
+    "season": "3",
+    "episode_number": 8,
+    "released": "2013-05-19",
+    "imdbRating": "9.0",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 29,
+  "fields": {
+    "title": "The Rains of Castamere",
+    "season": "3",
+    "episode_number": 9,
+    "released": "2013-06-02",
+    "imdbRating": "9.9",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 30,
+  "fields": {
+    "title": "Mhysa",
+    "season": "3",
+    "episode_number": 10,
+    "released": "2013-06-09",
+    "imdbRating": "9.2",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 31,
+  "fields": {
+    "title": "Two Swords",
+    "season": "4",
+    "episode_number": 1,
+    "released": "2014-04-06",
+    "imdbRating": "9.1",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 32,
+  "fields": {
+    "title": "The Lion and the Rose",
+    "season": "4",
+    "episode_number": 2,
+    "released": "2014-04-13",
+    "imdbRating": "9.7",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 33,
+  "fields": {
+    "title": "Breaker of Chains",
+    "season": "4",
+    "episode_number": 3,
+    "released": "2014-04-20",
+    "imdbRating": "8.9",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 34,
+  "fields": {
+    "title": "Oathkeeper",
+    "season": "4",
+    "episode_number": 4,
+    "released": "2014-04-27",
+    "imdbRating": "8.8",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 35,
+  "fields": {
+    "title": "First of His Name",
+    "season": "4",
+    "episode_number": 5,
+    "released": "2014-05-04",
+    "imdbRating": "8.8",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 36,
+  "fields": {
+    "title": "The Laws of Gods and Men",
+    "season": "4",
+    "episode_number": 6,
+    "released": "2014-05-11",
+    "imdbRating": "9.7",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 37,
+  "fields": {
+    "title": "Mockingbird",
+    "season": "4",
+    "episode_number": 7,
+    "released": "2014-05-18",
+    "imdbRating": "9.1",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 38,
+  "fields": {
+    "title": "The Mountain and the Viper",
+    "season": "4",
+    "episode_number": 8,
+    "released": "2014-06-01",
+    "imdbRating": "9.7",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 39,
+  "fields": {
+    "title": "The Watchers on the Wall",
+    "season": "4",
+    "episode_number": 9,
+    "released": "2014-06-08",
+    "imdbRating": "9.6",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 40,
+  "fields": {
+    "title": "The Children",
+    "season": "4",
+    "episode_number": 10,
+    "released": "2014-06-15",
+    "imdbRating": "9.7",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 41,
+  "fields": {
+    "title": "The Wars to Come",
+    "season": "5",
+    "episode_number": 1,
+    "released": "2015-04-12",
+    "imdbRating": "8.5",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 42,
+  "fields": {
+    "title": "The House of Black and White",
+    "season": "5",
+    "episode_number": 2,
+    "released": "2015-04-19",
+    "imdbRating": "8.5",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 43,
+  "fields": {
+    "title": "High Sparrow",
+    "season": "5",
+    "episode_number": 3,
+    "released": "2015-04-26",
+    "imdbRating": "8.5",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 44,
+  "fields": {
+    "title": "Sons of the Harpy",
+    "season": "5",
+    "episode_number": 4,
+    "released": "2015-05-03",
+    "imdbRating": "8.7",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 45,
+  "fields": {
+    "title": "Kill the Boy",
+    "season": "5",
+    "episode_number": 5,
+    "released": "2015-05-10",
+    "imdbRating": "8.6",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 46,
+  "fields": {
+    "title": "Unbowed, Unbent, Unbroken",
+    "season": "5",
+    "episode_number": 6,
+    "released": "2015-05-17",
+    "imdbRating": "8.0",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 47,
+  "fields": {
+    "title": "The Gift",
+    "season": "5",
+    "episode_number": 7,
+    "released": "2015-05-24",
+    "imdbRating": "9.0",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 48,
+  "fields": {
+    "title": "Hardhome",
+    "season": "5",
+    "episode_number": 8,
+    "released": "2015-05-31",
+    "imdbRating": "9.9",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 49,
+  "fields": {
+    "title": "The Dance of Dragons",
+    "season": "5",
+    "episode_number": 9,
+    "released": "2015-06-07",
+    "imdbRating": "9.5",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 50,
+  "fields": {
+    "title": "Mother's Mercy",
+    "season": "5",
+    "episode_number": 10,
+    "released": "2015-06-14",
+    "imdbRating": "9.1",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 51,
+  "fields": {
+    "title": "The Red Woman",
+    "season": "6",
+    "episode_number": 1,
+    "released": "2016-04-24",
+    "imdbRating": "8.5",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 52,
+  "fields": {
+    "title": "Home",
+    "season": "6",
+    "episode_number": 2,
+    "released": "2016-05-01",
+    "imdbRating": "9.4",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 53,
+  "fields": {
+    "title": "Oathbreaker",
+    "season": "6",
+    "episode_number": 3,
+    "released": "2016-05-08",
+    "imdbRating": "8.7",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 54,
+  "fields": {
+    "title": "Book of the Stranger",
+    "season": "6",
+    "episode_number": 4,
+    "released": "2016-05-15",
+    "imdbRating": null,
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 55,
+  "fields": {
+    "title": "The Door",
+    "season": "6",
+    "episode_number": 5,
+    "released": "2016-05-22",
+    "imdbRating": "9.7",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 56,
+  "fields": {
+    "title": "Blood of My Blood",
+    "season": "6",
+    "episode_number": 6,
+    "released": "2016-05-29",
+    "imdbRating": "8.4",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 57,
+  "fields": {
+    "title": "The Broken Man",
+    "season": "6",
+    "episode_number": 7,
+    "released": "2016-06-05",
+    "imdbRating": "8.6",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 58,
+  "fields": {
+    "title": "No One",
+    "season": "6",
+    "episode_number": 8,
+    "released": "2016-06-12",
+    "imdbRating": "8.4",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 59,
+  "fields": {
+    "title": "Battle of the Bastards",
+    "season": "6",
+    "episode_number": 9,
+    "released": "2016-06-19",
+    "imdbRating": "9.9",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 60,
+  "fields": {
+    "title": "The Winds of Winter",
+    "season": "6",
+    "episode_number": 10,
+    "released": "2016-06-26",
+    "imdbRating": "9.9",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 61,
+  "fields": {
+    "title": "Dragonstone",
+    "season": "7",
+    "episode_number": 1,
+    "released": "2017-07-16",
+    "imdbRating": "8.6",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 62,
+  "fields": {
+    "title": "Stormborn",
+    "season": "7",
+    "episode_number": 2,
+    "released": "2017-07-23",
+    "imdbRating": "8.9",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 63,
+  "fields": {
+    "title": "The Queen's Justice",
+    "season": "7",
+    "episode_number": 3,
+    "released": "2017-07-30",
+    "imdbRating": "9.2",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 64,
+  "fields": {
+    "title": "The Spoils of War",
+    "season": "7",
+    "episode_number": 4,
+    "released": "2017-08-06",
+    "imdbRating": "9.8",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 65,
+  "fields": {
+    "title": "Eastwatch",
+    "season": "7",
+    "episode_number": 5,
+    "released": "2017-08-13",
+    "imdbRating": "8.8",
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 66,
+  "fields": {
+    "title": "Beyond the Wall",
+    "season": "7",
+    "episode_number": 6,
+    "released": "2017-08-20",
+    "imdbRating": null,
+    "series": 1
+  }
+},
+{
+  "model": "series.episodes",
+  "pk": 67,
+  "fields": {
+    "title": "The Dragon and the Wolf",
+    "season": "7",
+    "episode_number": 7,
+    "released": "2017-08-27",
+    "imdbRating": "9.4",
+    "series": 1
+  }
+}
+]

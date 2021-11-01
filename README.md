@@ -1,4 +1,4 @@
-# Traffic Speed
+# GAME OF THRONES API
 
 ## Project setup
 
@@ -13,7 +13,7 @@ Apps to install:
 
 1. download or clone **develop** branch of the project
 ```bash
-git clone --single-branch --branch master git@github.com:Ricardo50696/segments.git
+git clone --single-branch --branch master git@github.com:Ricardo50696/got_proj.git
 ```
 2. install and run the project: 
 ```
@@ -28,8 +28,16 @@ docker-compose exec admin python manage.py migrate
 ```bash
 docker-compose exec admin python manage.py createsuperuser
 ```
+6. populate GOT episodes
+```bash
+docker-compose exec admin python manage.py populate_got
+```
+or import from a fixture
+```bash
+docker-compose exec admin python manage.py loaddata db.json
+```
 
-## Paths
+# Paths
 
 ## Endpoints
 - Swagger [http://0.0.0.0:8000/api/swagger/](http://0.0.0.0:8000/api/swagger/)
