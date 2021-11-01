@@ -1,0 +1,1 @@
+from got_proj.settings import *

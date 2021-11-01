@@ -1,0 +1,37 @@
+version: "3.3"
+services:
+
+  api:
+    build:
+      context: .
+      dockerfile: docker/local/Dockerfile
+    image: got_proj/python
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+    env_file:
+      - docker/local/python.env
+    depends_on:
+      - database
+
+  admin:
+    image: got_proj/python
+    command: python manage.py runserver 0.0.0.0:9000
+    volumes:
+      - .:/code
+    ports:
+      - "9000:9000"
+    env_file:
+      - docker/local/python.env
+      - docker/local/admin.env
+    depends_on:
+      - database
+
+  database:
+    image: mdillon/postgis:11-alpine
+    env_file:
+      - docker/local/python.env
+    ports:
+      - "5433:5432"
